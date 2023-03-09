@@ -1,0 +1,16 @@
+{
+  "name": "mc-api",
+  "version": "1.0.0",
+  "description": "How to use mailchimp api ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ruhan Mozumdar",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "express": "^4.18.2"
+  }
+}
